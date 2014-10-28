@@ -12,3 +12,6 @@ drush vset preprocess_js 0
 drush vset page_compression 0
 drush vset cache 0
 drush vset error_level 1
+
+# Define private folder to /tmp
+drush vset file_private_path /tmp
